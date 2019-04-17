@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>网站样板</title>
+	
+	<!-- 
+		<link rel="shortcut icon" type="iamge/icon是所有类型图标所有都支" href="pic/1234.png"> 
+	-->
+
+<meta charset="utf-8">
+<style type="text/css">
+
+	
+
+	#d1 {background: url(pic/12345.png.) repeat-y center;
+		 height: auto;
+		 width: 700px;
+		 margin: 0;
+		 background-size: 100%;
+		 table-layout: fixed;}
+
+	#d2:hover {transform:rotate(360deg);
+			   opacity: 0.5;
+			   transition: 4s;
+			   position: relative;
+			   z-index: 100;}
+
+	#d3:hover {
+		background: url(pic/logo3.png);
+		height: 80px;
+		opacity: 1;
+		transition: 3s;}
+
+
+	#d3 {background:url(pic/logo2.png) no-repeat center;
+		 height: 20px;
+		 width: 1440px;
+		 background-size: 100%;
+		 position: relative;
+		 z-index: 200;
+		 margin: 35px auto;}
+	
+		
+	.div1 {width: 1440px;
+		   height: 200px;
+		   background-color: #6F96D1;
+	       background:url(pic/1234.png);
+	       position: fixed;
+	   	   top: auto;
+	   	   left: auto;
+	   		text-align: center;}
+
+
+	.div2 {border-radius: 50px;
+		   font-size: 39px;
+		   width:1420px;
+		   height: 60px; 
+		   font-family: "#";
+		   display: inline-block;
+		   background: rgba(20, 20, 20, 20.0.1);
+		   text-indent: 0.1em;
+		   float: left;
+		   position: fixed;
+		   top: auto;
+		   left: auto;}
+	
+
+	.c1 {font-family: 华文彩云;}
+	
+	.c2 {text-decoration: none;
+		 color: red;}
+
+	.c3:hover {color: black;
+		transition: 2s;
+		box-shadow: 0 0 5px 1px gray;
+		text-shadow: 2px 2px gray; }
+
+	#d0:hover {
+		display: block;
+	}
+	
+
+	* { margin: 0;
+		padding: 0;}
+
+/*  white-space: nowrap;overflow: hidden;text-overflow: ellipsis  超出部分变成 省略号 */
+		/*  overflow:scroll; 超出部分变成滚动条 x/y都有
+			解决办法 overflow-x:scroll; overflow-y:scroll;
+		用y轴和 省略号比较实用*/
+
+		/* 单一图片显示不重复;no-repeat, repeat-x,repeat-y */
+
+		/* 自定义鼠标样式
+exp .div:hover {cursor:url("自定义鼠标样式图片路径"),auto;}
+	,auto必须要添加 
+	(cur和 icon是所有类型图标所有都支持;jpg,png,IE不支持.)*/
+
+		/* 表格标签内置 list-style-position:inside;outside;
+			去标记list-style:none; */
+
+	/* 	<link rel="stylesheet" type="text/css" href="web.css"> 直接在css里编辑  */ 
+
+	/* <!-- style="display:inline-block; vertical-align:top/bot/middle;" --> */
+
+ 	/* .c1,c2 {} 中的逗号代表群组选择器；可多选  */
+
+	/* 浮动 float:left;左浮动	float:right;右浮动 */
+
+
+</style>
+</head>
+
+	<body id="d1">
+		<form  action="index.php" method="post" style="width: 1400px;height:165px" enctype="multipart/form-data">
+		<div class="div1">
+
+		<a href="#"><img id="d2" src="pic/logo.png" width="300px" height="200px" align="left";> </a>&nbsp;&nbsp;
+
+		<a href="#"><img id="d2" src="pic/tedu.png" width="300px" height="200px"
+			align="right";></a>	
+			
+		<b class="c1" style="color: black;">用户名*&nbsp;</b><input type="text" name="username" placeholder="请输入用户名" required="" autofocus="" maxlength="20" minlength="8"  >&nbsp;&nbsp;  
+
+		<b class="c1" style="color: black;">密码*&nbsp;</b><input type="password" name="password" placeholder="请输入密码" required="" maxlength="20" minlength="8">
+			&nbsp;&nbsp; 
+
+		<b class="c1" style="color: black;">联系方式*&nbsp;</b><input type="tel" name="telephone" placeholder="请输入电话号" required="" minlength="9" maxlength="15">
+			&nbsp;&nbsp;  
+			<br>
+		<div style="display: inline-block;">
+				<b class="c1" style="color: black;font-size: 17px" >资料介绍*&nbsp;</b> 
+	</div>
+
+			
+		<b><textarea name="info" style="resize: none;height:153px;width: 260px;vertical-align:middle;text-indent: 2em;" 
+			placeholder="请输入姓名和公司/项目资料和合作意向；以便于项目/产品/公司与市场的嫁接;本公司会尽最大努力对项目分析/精算/商业合作开展市场性嫁接.
+				        信誉是建立信任的地基!! " required=""  ></textarea></b>
+
+				
+			<br> 
+
+			<a class="c1" id="" href="pic/plan.png">
+				<b class="c3" style="font-size: 23px;position: relative;z-index: 100px; color: black;">
+			缘起友自来，服务赢天下</b></a>
+			
+
+			<input type="file" name="file" style="float: right;margin: 0 58px
+			;">
+			<input type="submit" value="提交" style="float: right;margin: 0 71px;width: 70px;height: 23px;">
+
+			
+
+			
+
+		</form>
+	</div>
+		<hr id="d3">
+	
+		<div class="div2" align="center">
+		
+				<span class="c1">
+					<a class="c2" href="#">
+						<b class="c3">公司初衷</b>
+					</a> &nbsp;&nbsp;
+				</span>
+
+				<span class="c1">
+					<a class="c2" href="#">
+						<b class="c3">
+							企业嫁接思路		
+						</b>
+					</a> &nbsp;&nbsp;
+				</span>
+
+				<span class="c1">
+					<a class="c2" href="#">
+						<b class="c3">商务合作</b>
+					</a> &nbsp;&nbsp;
+				</span>
+
+				<span class="c1">
+					<a class="c2" href="#">
+						<b class="c3">项目代理(个人)/产品介绍</b>
+					</a>&nbsp;&nbsp;
+				</span>
+
+				<span class="c1">
+					<a class="c2" href="#">
+						<b class="c3">联系方式</b>
+					</a>&nbsp;&nbsp;
+				</span>
+		</div>
+		
+
+
+
+
+
+
+
+	</body>
+</html>
